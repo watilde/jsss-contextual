@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jsss-contextual by watilde</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jsss-contextual</h1>
+        <p>A contextual method in JSSS</p>
+
+        <p class="view"><a href="https://github.com/watilde/jsss-contextual">View the Project on GitHub <small>watilde/jsss-contextual</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/watilde/jsss-contextual/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/watilde/jsss-contextual/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/watilde/jsss-contextual">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jsss-contextual" class="anchor" href="#jsss-contextual"><span class="octicon octicon-link"></span></a>jsss-contextual</h1>
+
+<p>A contextual method in JSSS</p>
+
+<h2>
+<a name="badged" class="anchor" href="#badged"><span class="octicon octicon-link"></span></a>Badged</h2>
+
+<ul>
+<li><a href="https://www.npmjs.org/package/jsss-contextual"><img src="http://img.shields.io/npm/v/jsss-contextual.svg" alt="NPM Version"></a></li>
+<li><a href="https://github.com/watilde/jsss-contextual/blob/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT LICENSE"></a></li>
+<li><a href="https://travis-ci.org/watilde/jsss-contextual"><img src="https://api.travis-ci.org/watilde/jsss-contextual.svg" alt="Build Status"></a></li>
+</ul><h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Using npm.</p>
+
+<pre><code>$ npm install --save-dev jsss-contextual
+</code></pre>
+
+<h2>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>style.js</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">contextual</span><span class="p">(</span><span class="nx">tags</span><span class="p">.</span><span class="nx">UL</span><span class="p">,</span> <span class="nx">tags</span><span class="p">.</span><span class="nx">LI</span><span class="p">,</span> <span class="p">{</span><span class="nx">color</span><span class="o">:</span> <span class="s1">'red'</span><span class="p">});</span>
+<span class="nx">contextual</span><span class="p">(</span><span class="nx">tags</span><span class="p">.</span><span class="nx">UL</span><span class="p">,</span> <span class="nx">tags</span><span class="p">.</span><span class="nx">LI</span><span class="p">,</span> <span class="p">{</span><span class="nx">fontSize</span><span class="o">:</span> <span class="s1">'10px'</span><span class="p">});</span>
+</pre></div>
+
+<p>compile</p>
+
+<pre><code>$ jsss style.js style.css
+</code></pre>
+
+<p>style.css</p>
+
+<div class="highlight highlight-css"><pre><span class="nt">UL</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+      <span class="k">font-size</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">LI</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+      <span class="k">font-size</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/watilde">watilde</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-35821550-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
