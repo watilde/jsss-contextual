@@ -18,6 +18,7 @@ $ npm install --save-dev jsss-contextual
 ## Example
 style.js
 ```js
+var contextual = require('jsss-contextual');
 contextual(tags.UL, tags.LI, {color: 'red'});
 contextual(tags.UL, tags.LI, {fontSize: '10px'});
 ```
