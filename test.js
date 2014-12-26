@@ -1,11 +1,11 @@
 var _ = require('underscore');
-var contextual = require('./index');
+var contextual = require('./lib/main');
 var fixture = {
   test: 'test'
 };
 
 var foo = {}, bar = {};
-contextual(foo, bar, {test: 'test'});
+contextual(foo, bar).test = 'test';
 
 
 if (!_.isEqual(foo, fixture)) {
