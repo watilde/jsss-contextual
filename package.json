@@ -21,7 +21,7 @@
   ],
   "homepage": "https://github.com/watilde/jsss-contextual",
   "dependencies": {
-    "harmony-reflect": "^1.1.1"
+    "harmony-reflect": "^1.0.1"
   },
   "devDependencies": {
     "underscore": "^1.7.0"
