@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "underscore": "^1.7.0"
+  },
+  "peerDependencies": {
+    "jsss-compiler": "1.x"
   }
 }
