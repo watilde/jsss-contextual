@@ -24,9 +24,7 @@
     "harmony-reflect": "^1.0.1"
   },
   "devDependencies": {
+    "jsss-compiler": "1.x",
     "underscore": "^1.7.0"
-  },
-  "peerDependencies": {
-    "jsss-compiler": "1.x"
   }
 }
