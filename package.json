@@ -4,7 +4,7 @@
   "description": "A contextual method in JSSS",
   "main": "lib/main.js",
   "scripts": {
-    "test": "node --harmony test.js"
+    "test": "node --harmony_proxies test.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,10 @@
   ],
   "homepage": "https://github.com/watilde/jsss-contextual",
   "dependencies": {
-    "harmony-reflect": "^1.0.1"
+    "harmony-reflect": "^1.3.0"
   },
   "devDependencies": {
     "jsss-compiler": "1.x",
-    "underscore": "^1.7.0"
+    "underscore": "^1.8.3"
   }
 }
