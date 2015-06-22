@@ -1,6 +1,6 @@
 {
   "name": "jsss-contextual",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A contextual method in JSSS",
   "main": "lib/main.js",
   "scripts": {
